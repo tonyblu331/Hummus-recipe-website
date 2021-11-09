@@ -14,7 +14,7 @@ body{
     color: #222;
     margin: 1.608em auto;
     display: flex;
-    width: 90ch;
+    width: 80ch;
     border-radius: 1em;
     align-content: center;
     justify-content: center;
@@ -25,6 +25,7 @@ body{
 
 /* Paragraph Sizing and Character Limt */
 p{
+    min-width: 45ch;
     max-width: 75ch;
     margin: 1.5em;
 }
@@ -76,7 +77,7 @@ section ul{
 /* Recipe Card Styling */
 .recipe-card{
     border:1px solid #f0f1f3;
-    width: 80vh;
+    width: 100%;
     border-radius: 1em;
 }
 
