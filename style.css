@@ -1,0 +1,148 @@
+/* Universal */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+body{
+    font-family: 'Poppins', sans-serif;
+    font-size: 1rem;
+    line-height: 1.4;
+    background: #fff;
+    color: #222;
+    margin: 1.608em auto;
+    display: flex;
+    width: 90ch;
+    border-radius: 1em;
+    align-content: center;
+    justify-content: center;
+    -webkit-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    -moz-box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+
+/* Paragraph Sizing and Character Limt */
+p{
+    max-width: 75ch;
+    margin: 1.5em;
+}
+
+/* Lists */ 
+ul{
+    margin: 2.5em;
+}
+
+ol{
+    margin: 2.5em;
+}
+
+li{
+    margin: 0.5em;
+}
+
+/* Titles  */
+h1{
+    margin: 1.608em;
+    font-size: 2.5em;
+}
+
+header h1{
+    margin: 0.5em;
+}
+
+h2{
+    margin: 1.608em;
+    font-weight: 700;
+}
+
+/* Sections Negative Margin */
+
+section ol{
+    margin-top: -1em;
+}
+
+section ul{
+    margin-top: -1em;
+}
+
+/* Ingredients Bottom Margin */
+.ingredients{
+    margin-bottom: 2.68em;
+}
+
+
+/* Recipe Card Styling */
+.recipe-card{
+    border:1px solid #f0f1f3;
+    width: 80vh;
+    border-radius: 1em;
+}
+
+.recipe-card img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    overflow: hidden;
+    border-radius: 1em 1em 0 0;
+}
+
+/* Horizontal Line */
+hr{
+    margin-bottom: 1.608em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 98%;
+    background-color: #fff;
+	border-top: 0.125em dashed #8c8b8b;
+}
+
+/* Recipe Notes */
+.recipe-notes{
+    padding: 1.5em;
+    background: #FCBB6D;
+    color: #fff;
+    border-radius: 1em 1em 0 0;
+}
+
+.recipe-notes h4{
+    font-weight: 300;
+    color: #fff;
+}
+
+.recipe-notes h4 em{
+    font-weight: 700;
+}
+
+/* Storage Notes */
+.storage{
+    padding: 0.3125em;
+    background: #CA9657;
+    color: #fff;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+}
+
+.storage h2{
+    margin: 1em;
+    margin-bottom: -0.5em;
+}
+
+.storage p{
+    margin: 1.5em;
+}
+
+/* Footer */
+footer{
+    padding: 0.5em;
+    background: #977041;
+    color: #fff;
+    border-radius: 0 0 1em 1em;
+}
+
+footer p{
+    line-height: 0.25em;
+    text-align: center;
+}
